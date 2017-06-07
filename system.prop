@@ -3,6 +3,7 @@ persist.audio.dualmic.config=endfire
 persist.audio.fluence.voicecall=true
 
 # Bluetooth
+ro.bluetooth.hfp.ver=1.6
 ro.qualcomm.bt.hci_transport=smd
 
 # Camera

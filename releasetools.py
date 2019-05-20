@@ -36,5 +36,5 @@ def checkSystemPartitionSize(info):
   info.script.AppendExtra('set_metadata("/tmp/sizecheck.sh", "uid", 0, "gid", 0, "mode", 0755);');
   info.script.AppendExtra('ui_print("Checking size of the /system partition...");');
   info.script.AppendExtra('if run_program("/tmp/sizecheck.sh") == 0 then');
-  info.script.AppendExtra('abort("Too small /system partition detected (must be at least 1333788672 bytes). You need to repartition your device before installing this ROM.");');
+  info.script.AppendExtra('abort("Too small /system partition detected (must be at least 1572863999 bytes). You need to repartition your device using Clamor repartition tool.");');
   info.script.AppendExtra('endif;');

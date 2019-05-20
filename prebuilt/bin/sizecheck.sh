@@ -37,7 +37,7 @@ egrep -o 'mmcblk0p21:.*B' /tmp/sizecheck >> /tmp/sizecheck2
 sed 's/^.\{12\}//;s/.$//' /tmp/sizecheck2 >> /tmp/sizecheck3
 
 # Compare /system partition size
-if [ `cat /tmp/sizecheck3` -ge "1333788672" ]
+if [ `cat /tmp/sizecheck3` -ge "1572863999" ]
 then
   size_valid=1
 else
